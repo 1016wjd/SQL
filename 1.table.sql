@@ -28,10 +28,10 @@ CREATE TABLE Post (
 );
 
 
--- CREATE TABLE Comment(
---     id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
---     post_id INTEGER NOT NULL,
---     content TEXT NOT NULL,
---     FOREIGN KEY (post_id) REFERENCES Post (id) 
+CREATE TABLE Comment(
+    id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    post_id INTEGER NOT NULL,
+    content TEXT NOT NULL,
+    FOREIGN KEY (post_id) REFERENCES Post (id) 
 
--- );
+);

@@ -34,4 +34,5 @@
 -- SELECT * FROM Comment;
 
 -- 고윳값 확인
-SELECT DISTINCT content FROM Comment;
+-- SELECT DISTINCT content FROM Comment;
+
